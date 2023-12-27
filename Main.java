@@ -15,7 +15,7 @@ public class Main {
     Queue<String> listOfToys = new PriorityQueue<String>(10);
     Toys toy = new Toys(0,0,"");
     PriseToys toy1 = new PriseToys(0,0,"");
-    toy.set("1 2 конструктор");
+    toy.set("1 1 конструктор");
     idToys.add(toy.getId());
     frequencyToys.add(toy.getFrequency());
     nameToys.add(toy.getName());
