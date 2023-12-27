@@ -1,12 +1,13 @@
 package ToyShop;
 
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Toys {
-    protected int id;
+    private int id;
     private int frequency;
     private String name;
- 
+     
 public Toys(int id, int frequency, String name) {
         this.id = id;
         this.frequency = frequency;
@@ -26,8 +27,10 @@ public String getName(){
 }
 
 public String getToy(){
-    return this.id + "; " + this.frequency + "; " + this.name;
+    return this.id + ";" + this.frequency + ";" + this.name;
 }
+
+
 
 public void set(String string){
     StringTokenizer str = new StringTokenizer(string, " ");
@@ -39,3 +42,4 @@ public void set(String string){
 }
 }
 }
+
