@@ -13,7 +13,7 @@ import ToyShop.Toys;
 public class Main {
     
     public static void main(String[] args) {
-        ArrayList<Integer> idToys = new ArrayList<>();
+    ArrayList<Integer> idToys = new ArrayList<>();
     ArrayList<Integer> frequencyToys = new ArrayList<>();
     ArrayList<String> nameToys = new ArrayList<>(); 
     Queue<String> listOfToys = new PriorityQueue<String>(10);
@@ -53,7 +53,8 @@ public class Main {
         writer.write("\n");    
         }
         else if (a > 2){
-        writer.write("с вероятностью"+6+"выигрывает"+PriseToys.get(6));
+        a = 6;
+        writer.write("с вероятностью"+a+"выигрывает"+PriseToys.get(a));
         writer.write("\n");
         } 
     }
