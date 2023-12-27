@@ -52,7 +52,7 @@ public class Main {
         writer.write("с вероятностью"+a+"выигрывает"+PriseToys.get(a));
         writer.write("\n");    
         }
-        else if (a > 2){
+        else if (a > 4){
         a = 6;
         writer.write("с вероятностью"+a+"выигрывает"+PriseToys.get(a));
         writer.write("\n");
